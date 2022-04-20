@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp.Video.Rental.Data\CSharp.Video.Rental.Data.csproj" />
+    <ProjectReference Include="..\CSharp.Video.Rental.Services\CSharp.Video.Rental.Services.csproj" />
+  </ItemGroup>
+
+</Project>
